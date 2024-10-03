@@ -1,0 +1,122 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+font-family: "Space Grotesk", sans-serif;
+
+}
+
+.fog{
+    color: rgb(44, 44, 44);
+    font-size: 2em;
+    position: absolute;
+    top: 10%;
+}
+
+.suny{
+    color: rgb(255, 234, 0);
+    font-size: 2em;
+    position: absolute;
+    top: 10%;
+}
+
+.cloudy{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    position: absolute;
+    top: 5%;
+}
+
+.windy{
+    color: rgb(255, 34, 0);
+    font-size: 2em;
+    position: absolute;
+    top: 10%;
+}
+
+.flake{
+    color: rgb(0, 217, 255);
+    font-size: 2em;
+    position: absolute;
+    top: 10%;
+}
+
+.rain{
+    color: rgb(0, 160, 229);
+    font-size: 2em;
+    position: absolute;
+    top: 10%;
+}
+
+img{
+    border-radius: 7px !important;
+}
+
+.card{
+    padding: 0.5em;
+
+}
+
+.card-s{
+    background-color: #52ACFF;
+background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+
+}
+
+.card-c{
+    background-color: #52ACFF;
+background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+
+}
+
+.card-w{
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    
+
+}
+
+.card-f{
+    background-color: #FAACA8;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+}
+
+.card-cd{
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+
+.card-r{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    
+
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    margin-top: 2em;
+    background-color: rgb(47, 47, 47);
+ 
+}
+
+.smiley{
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+
+.elseh{
+margin-top: -8em;
+
+
+}
