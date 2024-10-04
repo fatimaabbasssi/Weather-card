@@ -1,13 +1,13 @@
-var userinput = prompt(`Let's know about your weather
+var userinput = prompt(`Let's know about weather
                         Sunny -x- Cloudy -x- Windy
                         Fog -x- Cold -x- Rainy
 
-                        ~Chose any one from below~
+                        ~Choose any one option from below~
     `)
 
-    if(userinput === 'sunny' || userinput === 'Sunny' ){
-        document.write(`<div class="card card-s" style="width: 18rem;">
-  <img src="https://static.vecteezy.com/system/resources/thumbnails/033/352/730/small/sunny-sky-background-sunny-day-background-sun-wallpaper-sunny-sky-landscape-blue-sky-background-summer-sky-background-ai-generative-photo.jpg" class="card-img-top" alt="...">
+    if(userinput.toLowerCase() === 'sunny'){
+        document.write(`<div class="card card-s animate__animated animate__backInDown" style="width: 18rem;">
+  <img src="https://i.gifer.com/Iqp.gif" class="card-img-top" alt="...">
   <div class="card-body">
   <h2>Sunny Weather</h2> <i class="fa-solid fa-sun suny"></i>
   
@@ -17,9 +17,9 @@ var userinput = prompt(`Let's know about your weather
 </div>`)
     }
 
-    else if(userinput === 'cloudy' || userinput === 'Cloudy'){
-        document.write(`<div class="card card-c " style="width: 18rem;">
-            <img src="https://www.app.com.pk/wp-content/uploads/2023/08/kp-weather.jpg" class="card-img-top" alt="...">
+    else if(userinput.toLowerCase() === 'cloudy'){
+        document.write(`<div class="card card-c animate__animated animate__backInDown" style="width: 18rem;">
+            <img src="https://media0.giphy.com/media/yLrLQPkyz7dLYshVhO/giphy.gif?cid=6c09b952e2fa72xc3g2ph9nk46n5rhl7st6t76nga90ydpbu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" class="card-img-top" alt="...">
             <div class="card-body">
             <i class="fa-solid fa-cloud-sun cloudy"></i>
             <h2>Cloudy Weather</h2>
@@ -29,9 +29,9 @@ var userinput = prompt(`Let's know about your weather
           </div>`)
     }
     
-    else if(userinput === 'windy' || userinput === 'Windy'){
-        document.write(`<div class="card card-w" style="width: 18rem;">
-            <img src="https://t3.ftcdn.net/jpg/04/99/96/18/360_F_499961849_RTPjXHECUHBi4X9ZrpVTxb30Esx0bvIq.jpg" class="card-img-top" alt="...">
+    else if(userinput.toLowerCase() === 'windy'){
+        document.write(`<div class="card card-w animate__animated animate__backInDown" style="width: 18rem;">
+            <img src="https://clipart-library.com/image_gallery/n807194.gif" class="card-img-top" alt="...">
             <div class="card-body">
             <i class="fa-solid fa-wind windy"></i>
             <h2>Windy Weather</h2>
@@ -41,9 +41,9 @@ var userinput = prompt(`Let's know about your weather
           </div>`)
     }
  
-    else if(userinput === 'fog' || userinput === 'Fog'){
-        document.write(`<div class="card card-f" style="width: 18rem;">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtU-ASavp6-HoYzOdtITrCjP5TBG1pqdAmfUPr-PNxEpWfFo7mxSiv7NEBq9WLQ3caMkI&usqp=CAU" class="card-img-top" alt="...">
+    else if(userinput.toLowerCase() === 'fog'){
+        document.write(`<div class="card card-f animate__animated animate__backInDown" style="width: 18rem;">
+            <img src="https://media3.giphy.com/media/QiLKY0lTDJZ6M/200_d.gif" class="card-img-top" alt="...">
             <div class="card-body">
             <h2>Fog Weather</h2>
             <i class="fa-solid fa-smog fog"></i>
@@ -54,9 +54,9 @@ var userinput = prompt(`Let's know about your weather
     }
 
 
-    else if(userinput === 'cold' || userinput === 'Cold'){
-        document.write(`<div class="card card-cd" style="width: 18rem;">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRGdLrI_kPO4d_j7JfRJE2p1YTz8Ln0rVrg&s" class="card-img-top" alt="...">
+    else if(userinput.toLowerCase() === 'cold'){
+        document.write(`<div class="card card-cd animate__animated animate__backInDown" style="width: 18rem;">
+            <img src="https://www.icegif.com/wp-content/uploads/2022/12/icegif-1330.gif" class="card-img-top" alt="...">
             <div class="card-body">
             <i class="fa-regular fa-snowflake flake"></i>
             <h2>Cold Weather</h2>
@@ -68,9 +68,9 @@ var userinput = prompt(`Let's know about your weather
     }
 
 
-    else if(userinput === 'rainy' || userinput === 'Rainy'){
-        document.write(`<div class="card card-r" style="width: 18rem;">
-            <img src="https://static.vecteezy.com/system/resources/previews/042/146/565/non_2x/ai-generated-beautiful-rain-day-view-photo.jpg" class="card-img-top" alt="...">
+    else if(userinput.toLowerCase() === 'rainy'){
+        document.write(`<div class="card card-r animate__animated animate__backInDown" style="width: 18rem;">
+            <img src="https://i.pinimg.com/originals/0e/1f/83/0e1f8367d81e6f161d198a0b5011a62f.gif" class="card-img-top" alt="...">
             <div class="card-body">
             <i class="fa-solid fa-umbrella rain"></i>
             <h2>Rainy Weather</h2>
@@ -80,15 +80,11 @@ var userinput = prompt(`Let's know about your weather
           </div>`)
     }
 
-
-
-
-
-
-
-
     else{
         document.write(`<h1 class="elseh">Please try one more</h1><i class="fa-regular fa-face-smile smiley"></i>
             <div class="line"></div>
+            <div><img class="totoro"
+             src="https://imgcdn.sigstick.com/cAQC9MXGvOS922ESium5/4-1.png"
+             alt=""></div>
             `)
     }
