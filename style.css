@@ -110,6 +110,10 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
  
 }
 
+.card-img-top{
+    height: 220px;
+}
+
 .smiley{
     font-size: 2em;
     margin-top: 0.3em;
