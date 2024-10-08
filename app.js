@@ -81,10 +81,12 @@ var userinput = prompt(`Let's know about weather
     }
 
     else{
-        document.write(`<h1 class="elseh">Please try one more</h1><i class="fa-regular fa-face-smile smiley"></i>
-            <div class="line"></div>
+        document.write(`<h1 class="elseh">Invalid input try again</h1>
+           
             <div><img class="totoro"
              src="https://imgcdn.sigstick.com/cAQC9MXGvOS922ESium5/4-1.png"
              alt=""></div>
             `)
     }
+
+    // <div class="line"></div>
